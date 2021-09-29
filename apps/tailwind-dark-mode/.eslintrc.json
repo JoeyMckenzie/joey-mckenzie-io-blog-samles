@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "joey-mckenzie-io-angular-blog-samples",
+            "prefix": "joey-mckenzie-io-blog-samples",
             "style": "kebab-case"
           }
         ]

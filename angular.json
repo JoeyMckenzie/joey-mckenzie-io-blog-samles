@@ -5,7 +5,7 @@
       "projectType": "application",
       "root": "apps/tailwind-dark-mode",
       "sourceRoot": "apps/tailwind-dark-mode/src",
-      "prefix": "joey-mckenzie-io-angular-blog-samples",
+      "prefix": "joey-mckenzie-io-blog-samples",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

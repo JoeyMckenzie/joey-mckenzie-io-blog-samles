@@ -1,0 +1,9 @@
+<div class="min-h-screen flex flex-col justify-center items-center gap-y-4">
+  <button (click)="toggleDarkMode()" id="dark-mode-toggle"
+    class="bg-blue-500 dark:bg-blue-800 hover:bg-blue-700 dark:hover:bg-blue-900 text-white dark:text-blue-400 font-bold py-2 px-4 rounded">
+    Toggle
+  </button>
+  <p class="text-black dark:text-white">
+    Dark mode enabled: {{ (darkModeEnabled$ | async) === true }}
+  </p>
+</div>
